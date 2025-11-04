@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\firstpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\scripts\\playercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerColor.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerColor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerColor.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerColor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:59:52.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstPersonCamera.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\FirstPersonCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonCamera.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\FirstPersonCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FirstPersonCamera.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:47:48.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:10:09.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T08:58:22.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
