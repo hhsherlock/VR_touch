@@ -669,17 +669,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnSmoothness: 0.1
   head:
-    vrTarget: {fileID: 0}
+    vrTarget: {fileID: 247364455}
     ikTarget: {fileID: 969893672}
-    trackingPositionOffset: {x: 0, y: 0, z: 0}
+    trackingPositionOffset: {x: 0, y: -0.03, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
-    vrTarget: {fileID: 0}
+    vrTarget: {fileID: 1571317418}
     ikTarget: {fileID: 411576290}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   rightHand:
-    vrTarget: {fileID: 0}
+    vrTarget: {fileID: 2015108136}
     ikTarget: {fileID: 60966793}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
@@ -841,13 +841,14 @@ Transform:
   m_GameObject: {fileID: 370466248}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 247364455}
   - {fileID: 1571317418}
   - {fileID: 2015108136}
+  - {fileID: 2078253167}
   m_Father: {fileID: 387488684}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &387488681
@@ -896,7 +897,7 @@ MonoBehaviour:
   m_Camera: {fileID: 247364458}
   m_OriginBaseGameObject: {fileID: 387488681}
   m_CameraFloorOffsetObject: {fileID: 370466248}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!4 &387488684
 Transform:
@@ -907,7 +908,7 @@ Transform:
   m_GameObject: {fileID: 387488681}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.1345563, y: 4.993162, z: -3.1652374}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3257,6 +3258,51 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 262187085}
   m_SourcePrefab: {fileID: 100100000, guid: 91845188acfa16a448d99df309a4a802, type: 3}
+--- !u!1 &2078253166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2078253167}
+  - component: {fileID: 2078253168}
+  m_Layer: 0
+  m_Name: Left Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2078253167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078253166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 370466249}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2078253168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078253166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b109b2e87e863a34ba5cc9871168479e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerName: LeftHand
 --- !u!4 &2082603501 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4774690117161699763, guid: 91845188acfa16a448d99df309a4a802, type: 3}

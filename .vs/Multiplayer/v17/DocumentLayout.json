@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\scripts\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,19 +39,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\TestController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestController.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\TestController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T11:58:54.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IKTargetFollowVRRig.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "RelativeDocumentMoniker": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "RelativeToolTip": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA6wAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T11:04:16.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T11:04:16.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerColor.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerColor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerColor.cs",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FirstPersonCamera.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\FirstPersonCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonCamera.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -83,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
