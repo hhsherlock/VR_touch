@@ -7,6 +7,9 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/network.unity
+    guid: 09562b127c558c843bf74e4b08b63949
+  - enabled: 1
+    path: Assets/Scenes/network_test.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0dc793eba55408b41a54a00d648f9b08, type: 2}

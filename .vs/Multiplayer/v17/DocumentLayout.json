@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\scripts\\assignvrtargets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assignvrtargets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|solutionrelative:assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|solutionrelative:assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignVRTargets.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\AssignVRTargets.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AssignVRTargets.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\AssignVRTargets.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AssignVRTargets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:03:18.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IKTargetFollowVRRig.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "RelativeDocumentMoniker": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "RelativeToolTip": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:19:41.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "XRHandTrackingEvents.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HandProcessor.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandProcessor.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandProcessor.cs",
@@ -47,12 +81,11 @@
               "RelativeToolTip": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandProcessor.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T12:13:56.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T12:13:56.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HandVisualizer.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandVisualizer.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandVisualizer.cs",
@@ -60,8 +93,7 @@
               "RelativeToolTip": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandVisualizer.cs",
               "ViewState": "AgIAABICAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T12:13:01.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T12:13:01.326Z"
             }
           ]
         }
