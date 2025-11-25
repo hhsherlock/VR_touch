@@ -674,15 +674,15 @@ MonoBehaviour:
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
-    vrTarget: {fileID: 1212935567}
+    vrTarget: {fileID: 838826021}
     ikTarget: {fileID: 411576290}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 0, y: 0, z: 0}
+    trackingRotationOffset: {x: 90, y: 0, z: 0}
   rightHand:
-    vrTarget: {fileID: 0}
+    vrTarget: {fileID: 914063322}
     ikTarget: {fileID: 60966793}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 0, y: 0, z: 0}
+    trackingRotationOffset: {x: 90, y: 0, z: 0}
   headBodyPositionOffset: {x: 0, y: 0, z: 0}
   headBodyYawOffset: 0
 --- !u!4 &273282090 stripped
@@ -1355,6 +1355,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &838826021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5876909491052011584, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1212935566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &875815808 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -64324412884967669, guid: 91845188acfa16a448d99df309a4a802, type: 3}
@@ -1369,6 +1374,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8220039666387455650, guid: 91845188acfa16a448d99df309a4a802, type: 3}
   m_PrefabInstance: {fileID: 2049190140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &914063322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2468282021181825328, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+  m_PrefabInstance: {fileID: 1376856487}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &916979172 stripped
 Transform:

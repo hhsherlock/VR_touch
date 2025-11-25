@@ -1,6 +1,9 @@
 ﻿using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.XR.Hands;
+using UnityEngine.XR.Management;
+
 
 [System.Serializable]
 public class VRMap
@@ -27,34 +30,46 @@ public class IKTargetFollowVRRig : MonoBehaviour
 
     public Vector3 headBodyPositionOffset;
     public float headBodyYawOffset;
-    private bool assigned = false;
+    private bool head_assigned = false;
+    private bool right_hand_assigned = false;
+    private bool left_hand_assigned = false;
 
     private void Update()
     {
+        //assign head
         InputDevice headset = InputDevices.GetDeviceAtXRNode(XRNode.Head);
 
-        // Check if a headset device exists
-        if (!headset.isValid)
+        if (!head_assigned)
         {
-            Debug.Log("No VR headset detected.");
-            return;
-        }
-
-        // Check if tracking is active
-        if (headset.TryGetFeatureValue(CommonUsages.isTracked, out bool isTracked) && isTracked)
-        {
-            Debug.Log("Headset connected and tracking.");
-            if (!assigned)
+            if (headset.TryGetFeatureValue(CommonUsages.isTracked, out bool isTracked) && isTracked)
             {
+                Debug.Log("Headset connected and tracking.");
+            
+                //assign main camera to head
                 Camera cam = Camera.main; 
                 head.vrTarget = cam.transform;
-                assigned = true;
+
+                head_assigned = true;
+
             }
         }
-        else
+
+        //assign right hand
+        if (!left_hand_assigned)
         {
-            Debug.Log("Headset detected but NOT tracking.");
+            XRHandSubsystem handSubsystem;
+            handSubsystem = XRGeneralSettings.Instance.Manager
+                .activeLoader
+                .GetLoadedSubsystem<XRHandSubsystem>();
+            XRHand lefthand = handSubsystem.leftHand;
+            //if (lefthand != null)
+            //{
+
+            //}
+            Debug.Log(lefthand);
         }
+        
+
     }
 
 
@@ -65,7 +80,6 @@ public class IKTargetFollowVRRig : MonoBehaviour
         {
             transform.position = head.ikTarget.position + headBodyPositionOffset + new Vector3(0f, -0.6f, -0.1f);
         
-            Debug.Log("this line runs");
             float yaw = head.vrTarget.eulerAngles.y;
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, yaw, transform.eulerAngles.z), turnSmoothness);
 
