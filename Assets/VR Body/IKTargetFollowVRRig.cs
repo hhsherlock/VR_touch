@@ -44,9 +44,9 @@ public class IKTargetFollowVRRig : MonoBehaviour
             if (headset.TryGetFeatureValue(CommonUsages.isTracked, out bool isTracked) && isTracked)
             {
                 Debug.Log("Headset connected and tracking.");
-            
+
                 //assign main camera to head
-                Camera cam = Camera.main; 
+                Camera cam = Camera.main;
                 head.vrTarget = cam.transform;
 
                 head_assigned = true;
@@ -54,21 +54,23 @@ public class IKTargetFollowVRRig : MonoBehaviour
             }
         }
 
-        //assign right hand
-        if (!left_hand_assigned)
-        {
-            XRHandSubsystem handSubsystem;
-            handSubsystem = XRGeneralSettings.Instance.Manager
-                .activeLoader
-                .GetLoadedSubsystem<XRHandSubsystem>();
-            XRHand lefthand = handSubsystem.leftHand;
-            //if (lefthand != null)
-            //{
 
-            //}
-            Debug.Log(lefthand);
-        }
-        
+
+        ////assign right hand
+        //if (!left_hand_assigned)
+        //{
+        //    XRHandSubsystem handSubsystem;
+        //    handSubsystem = XRGeneralSettings.Instance.Manager
+        //        .activeLoader
+        //        .GetLoadedSubsystem<XRHandSubsystem>();
+        //    XRHand lefthand = handSubsystem.leftHand;
+        //    //if (lefthand != null)
+        //    //{
+
+        //    //}
+        //    //Debug.Log(lefthand);
+        //}
+
 
     }
 
@@ -78,8 +80,8 @@ public class IKTargetFollowVRRig : MonoBehaviour
     {
         if (head.vrTarget != null)
         {
-            transform.position = head.ikTarget.position + headBodyPositionOffset + new Vector3(0f, -0.6f, -0.1f);
-        
+            transform.position = head.ikTarget.position + new Vector3(0f, -0.6f, -0.1f);
+
             float yaw = head.vrTarget.eulerAngles.y;
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, yaw, transform.eulerAngles.z), turnSmoothness);
 
