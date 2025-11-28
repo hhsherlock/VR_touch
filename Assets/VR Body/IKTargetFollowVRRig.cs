@@ -18,6 +18,16 @@ public class VRMap
         ikTarget.position = vrTarget.TransformPoint(trackingPositionOffset);
         ikTarget.rotation = vrTarget.rotation * Quaternion.Euler(trackingRotationOffset);
     }
+
+    public void Map_Head()
+    {
+        ikTarget.position = vrTarget.TransformPoint(trackingPositionOffset);
+        Quaternion targetRot = Quaternion.Euler(trackingRotationOffset);
+        Vector3 tempRot = targetRot.eulerAngles;
+        tempRot.y = 0f;
+        ikTarget.rotation = Quaternion.Euler(tempRot);
+
+    }
 }
 
 public class IKTargetFollowVRRig : MonoBehaviour
@@ -26,7 +36,7 @@ public class IKTargetFollowVRRig : MonoBehaviour
     public float turnSmoothness = 0.1f;
     public VRMap head;
     public VRMap leftHand;
-    public VRMap rightHand;
+    //public VRMap rightHand;
 
     public Vector3 headBodyPositionOffset;
     public float headBodyYawOffset;
@@ -87,7 +97,7 @@ public class IKTargetFollowVRRig : MonoBehaviour
 
             head.Map();
             leftHand.Map();
-            rightHand.Map();
+            //rightHand.Map();
         }
     }
 }

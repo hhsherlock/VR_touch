@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|solutionrelative:assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|solutionrelative:assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B901A2E9-D8CD-A53A-5BA9-34F55F4162B7}|Unity.XR.Hands.Samples.VisualizerSample.csproj|solutionrelative:assets\\samples\\xr hands\\1.4.3\\handvisualizer\\scripts\\handvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
-              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:44:20.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IKTargetFollowVRRig.cs",
-              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
-              "RelativeDocumentMoniker": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
-              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
-              "RelativeToolTip": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFIAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:19:41.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "XRHandTrackingEvents.cs",
-              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
-              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T12:21:53.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HandProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandProcessor.cs",
-              "RelativeDocumentMoniker": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandProcessor.cs",
-              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandProcessor.cs",
-              "RelativeToolTip": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandProcessor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T12:13:56.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "HandVisualizer.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandVisualizer.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandVisualizer.cs",
               "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandVisualizer.cs",
               "RelativeToolTip": "Assets\\Samples\\XR Hands\\1.4.3\\HandVisualizer\\Scripts\\HandVisualizer.cs",
-              "ViewState": "AgIAABICAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAowIkBAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T12:13:01.326Z"
+              "WhenOpened": "2025-11-28T11:12:08.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IKTargetFollowVRRig.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "RelativeDocumentMoniker": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "RelativeToolTip": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwCYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T09:55:37.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T09:54:20.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XRHandTrackingEvents.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandTrackingEvents.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:11:28.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "XRHandMeshController.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:32:29.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XRHandSkeletonDriver.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "ViewState": "AgIAAIYBAAAAAAAAAAAAAG4BAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:32:25.084Z",
+              "EditorCaption": ""
             }
           ]
         }
