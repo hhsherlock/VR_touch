@@ -36,7 +36,7 @@ public class IKTargetFollowVRRig : MonoBehaviour
     public float turnSmoothness = 0.1f;
     public VRMap head;
     public VRMap leftHand;
-    //public VRMap rightHand;
+    public VRMap rightHand;
 
     public Vector3 headBodyPositionOffset;
     public float headBodyYawOffset;
@@ -91,13 +91,14 @@ public class IKTargetFollowVRRig : MonoBehaviour
         if (head.vrTarget != null)
         {
             transform.position = head.ikTarget.position + new Vector3(0f, -0.6f, -0.1f);
+            //transform.position = head.ikTarget.position;
 
             float yaw = head.vrTarget.eulerAngles.y;
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, yaw, transform.eulerAngles.z), turnSmoothness);
 
             head.Map();
             leftHand.Map();
-            //rightHand.Map();
+            rightHand.Map();
         }
     }
 }
