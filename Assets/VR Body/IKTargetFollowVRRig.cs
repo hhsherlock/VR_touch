@@ -40,49 +40,33 @@ public class IKTargetFollowVRRig : MonoBehaviour
 
     public Vector3 headBodyPositionOffset;
     public float headBodyYawOffset;
-    private bool head_assigned = false;
-    private bool right_hand_assigned = false;
-    private bool left_hand_assigned = false;
+    //private bool head_assigned = false;
+    //private bool right_hand_assigned = false;
+    //private bool left_hand_assigned = false;
 
-    private void Update()
-    {
-        //assign head
-        InputDevice headset = InputDevices.GetDeviceAtXRNode(XRNode.Head);
+    //private void Update()
+    //{
+    //    //assign head
+    //    InputDevice headset = InputDevices.GetDeviceAtXRNode(XRNode.Head);
 
-        if (!head_assigned)
-        {
-            if (headset.TryGetFeatureValue(CommonUsages.isTracked, out bool isTracked) && isTracked)
-            {
-                Debug.Log("Headset connected and tracking.");
+    //    if (!head_assigned)
+    //    {
+    //        if (headset.TryGetFeatureValue(CommonUsages.isTracked, out bool isTracked) && isTracked)
+    //        {
+    //            Debug.Log("Headset connected and tracking.");
 
-                //assign main camera to head
-                Camera cam = Camera.main;
-                head.vrTarget = cam.transform;
+    //            //assign main camera to head
+    //            Camera cam = Camera.main;
+    //            head.vrTarget = cam.transform;
 
-                head_assigned = true;
+    //            head_assigned = true;
 
-            }
-        }
-
-
-
-        ////assign right hand
-        //if (!left_hand_assigned)
-        //{
-        //    XRHandSubsystem handSubsystem;
-        //    handSubsystem = XRGeneralSettings.Instance.Manager
-        //        .activeLoader
-        //        .GetLoadedSubsystem<XRHandSubsystem>();
-        //    XRHand lefthand = handSubsystem.leftHand;
-        //    //if (lefthand != null)
-        //    //{
-
-        //    //}
-        //    //Debug.Log(lefthand);
-        //}
+    //        }
+    //    }
 
 
-    }
+
+    //}
 
 
     // Update is called once per frame
