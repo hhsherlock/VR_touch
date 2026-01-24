@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\scripts\\headsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\headsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\oldplayerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oldplayerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HeadSync.cs",
-              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\HeadSync.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HeadSync.cs",
-              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\HeadSync.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HeadSync.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T13:22:33.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
-              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:39:46.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "IKTargetFollowVRRig.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "RelativeDocumentMoniker": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "RelativeToolTip": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:55:37.987Z"
+              "WhenOpened": "2026-01-23T17:07:44.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OldPlayerSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\OldPlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OldPlayerSpawner.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\OldPlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OldPlayerSpawner.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T16:55:11.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T12:39:46.322Z",
+              "EditorCaption": ""
             }
           ]
         }
