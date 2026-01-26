@@ -1,6 +1,7 @@
 ﻿using Unity.VisualScripting;
 using UnityEngine;
 using Fusion;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 
 
@@ -30,21 +31,39 @@ public class VRMap
     //}
 }
 
+
+
 public class IKTargetFollowVRRig : NetworkBehaviour
 {
+
     [Range(0,1)]
     public float turnSmoothness = 0.1f;
+    //public Transform headVR;
+    //public Transform headIK;
+
+    //public Transform rightHandVR;
+    //public Transform rightHandIK;
+
+    //public Transform leftHandVR;
+    //public Transform leftHandIK;
+
     public VRMap head;
     public VRMap leftHand;
     public VRMap rightHand;
 
+
     public Vector3 headBodyPositionOffset;
     public float headBodyYawOffset;
-    private bool head_assigned = false;
     private bool right_hand_assigned = false;
     private bool left_hand_assigned = false;
 
     private Transform localHeadCamera;
+    private Transform rightHandTrack;
+    private Transform leftHandTrack;
+
+    public Vector3 trackingPositionOffset;
+    public Vector3 trackingRotationOffset;
+
 
     private void Awake()
     {
@@ -89,57 +108,95 @@ public class IKTargetFollowVRRig : NetworkBehaviour
 
             }
         }
-            //}
-            //else
-            //{
-            //    Debug.Log("has no input authority");
-            //}
-        
-        //}
-
-        
-        ////--------------------assign right hand-------------------------
-        //if (!right_hand_assigned)
-        //{
-
-        //}
 
 
     }
+
+
 
 
     // Update is called once per frame
     public override void FixedUpdateNetwork()
     {
-        //if (head.vrTarget != null)
-        //{
-            
-        //}
+        ////-----------------assign right hand-------------------------
+        //NetworkObject rightHandTrack = GameObject.Find("RightHandTracking").GetComponent<NetworkObject>();
+        if (!right_hand_assigned)
+        {
+            NetworkObject[] networkObjects = FindObjectsOfType<NetworkObject>();
+
+            if (networkObjects != null)
+            {
+
+                foreach (var netObj in networkObjects)
+                {
+                    if (netObj.name == "Right Hand Tracking(Clone)")
+                    {
+                        rightHandTrack = netObj.transform.GetChild(0);
+                        //rightHandVR = rightHandTrack;
+                        rightHand.vrTarget = rightHandTrack;
+                        right_hand_assigned = true;
+                    }
+                }
+            }
+        }
+
+        if (!left_hand_assigned)
+        {
+            NetworkObject[] networkObjects = FindObjectsOfType<NetworkObject>();
+
+            if (networkObjects != null)
+            {
+
+                foreach (var netObj in networkObjects)
+                {
+                    if (netObj.name == "Left Hand Tracking(Clone)")
+                    {
+                        leftHandTrack = netObj.transform.GetChild(0);
+                        leftHand.vrTarget = leftHandTrack;
+                        left_hand_assigned = true;
+                    }
+                }
+            }
+        }
+
+
+
         if (Object.HasInputAuthority)
         {
-            Debug.Log("fixed update");
-            transform.position = head.ikTarget.position + new Vector3(0f, -0.6f, -0.1f);
-            //transform.position = head.ikTarget.position;
+            //transform.position = headVR.position + new Vector3(0f, -0.6f, -0.1f);
+
+            //float yaw = headVR.eulerAngles.y;
+            //transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, yaw, transform.eulerAngles.z), turnSmoothness);
+
+            //// head
+            //headIK.position = headVR.TransformPoint(trackingPositionOffset);
+            //headIK.rotation = headVR.rotation * Quaternion.Euler(trackingRotationOffset);
+
+            //rightHandIK.position = rightHandVR.TransformPoint(trackingPositionOffset);
+            //rightHandIK.rotation = rightHandVR.rotation * Quaternion.Euler(trackingRotationOffset);
+
+            //leftHandIK.position = leftHandVR.TransformPoint(trackingPositionOffset);
+            //leftHandIK.rotation = leftHandVR.rotation * Quaternion.Euler(trackingRotationOffset);
+
+
+            transform.position = head.vrTarget.position + new Vector3(0f, -0.6f, -0.1f);
 
             float yaw = head.vrTarget.eulerAngles.y;
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, yaw, transform.eulerAngles.z), turnSmoothness);
 
-            head.Map();
-            leftHand.Map();
-            rightHand.Map();
+            // head
+            head.ikTarget.position = head.vrTarget.TransformPoint(trackingPositionOffset);
+            head.ikTarget.rotation = head.vrTarget.rotation * Quaternion.Euler(trackingRotationOffset);
+
+            rightHand.ikTarget.position = rightHand.vrTarget.TransformPoint(trackingPositionOffset);
+            rightHand.ikTarget.rotation = rightHand.vrTarget.rotation * Quaternion.Euler(trackingRotationOffset) * Quaternion.Euler(90f, 0f, 0f);
+
+            leftHand.ikTarget.position = leftHand.vrTarget.TransformPoint(trackingPositionOffset);
+            leftHand.ikTarget.rotation = leftHand.vrTarget.rotation * Quaternion.Euler(trackingRotationOffset) * Quaternion.Euler(90f, 0f, 0f);
+
+            //head.Map();
+            //leftHand.Map();
+            //rightHand.Map();
         }
-    }
-
-    private void ApplyIk()
-    {
-        transform.position = head.ikTarget.position + new Vector3(0f, -0.6f, -0.1f);
-        //transform.position = head.ikTarget.position;
-
-        float yaw = head.vrTarget.eulerAngles.y;
-        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, yaw, transform.eulerAngles.z), turnSmoothness);
-
-        head.Map();
-        leftHand.Map();
-        rightHand.Map();
     }
 }

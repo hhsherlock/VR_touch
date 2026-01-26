@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\vr body\\iktargetfollowvrrig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|c:\\users\\stude\\documents\\robert_yaning\\new\\multiplayer\\assets\\scripts\\assignik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assignik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\oldplayerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oldplayerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46A65ED-87AD-D2D3-0493-4CF8807E7B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssignIK.cs",
-              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\AssignIK.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AssignIK.cs",
-              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\AssignIK.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AssignIK.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "XRHandMeshController.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandMeshController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T13:29:20.384Z",
+              "WhenOpened": "2026-01-26T16:03:10.462Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XRHandSkeletonDriver.cs",
+              "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.hands@1.4.3\\Runtime\\XRHandSkeletonDriver.cs",
+              "ViewState": "AgIAADsBAAAAAAAAAAAowDgBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T10:59:28.415Z"
             },
             {
               "$type": "Document",
@@ -49,36 +65,34 @@
               "RelativeDocumentMoniker": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\VR Body\\IKTargetFollowVRRig.cs",
               "RelativeToolTip": "Assets\\VR Body\\IKTargetFollowVRRig.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAwwCYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwMIAAACOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T17:07:44.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OldPlayerSpawner.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\OldPlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OldPlayerSpawner.cs",
               "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\OldPlayerSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\OldPlayerSpawner.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwFAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T16:55:11.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T16:55:11.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
               "ToolTip": "C:\\Users\\stude\\Documents\\Robert_Yaning\\new\\Multiplayer\\Assets\\Scripts\\PlayerSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:39:46.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T12:39:46.322Z"
             }
           ]
         }

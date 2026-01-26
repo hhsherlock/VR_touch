@@ -14,9 +14,9 @@ public class PlayerSpawner : SimulationBehaviour, IPlayerJoined
 
     public void PlayerJoined(PlayerRef player)
     {
-        Debug.Log(player);
-        Debug.Log(Runner.LocalPlayer);
-        Debug.Log("lala");
+        //Debug.Log(player);
+        //Debug.Log(Runner.LocalPlayer);
+        //Debug.Log("lala");
 
         if (player == Runner.LocalPlayer)
         //if (Runner.IsServer)
@@ -28,7 +28,7 @@ public class PlayerSpawner : SimulationBehaviour, IPlayerJoined
         }
         else
         {
-            Debug.Log("not server");
+            //Debug.Log("not server");
         }
 
 
